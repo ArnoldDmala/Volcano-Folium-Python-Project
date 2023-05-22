@@ -1,0 +1,13 @@
+>>> map = folium.Map(location=[80, -100])
+>>> map
+<folium.folium.Map object at 0x00DCAF70>
+>>> map.save("Map1.html")
+>>> map = folium.Map(location=[34.917368, -81.937183])
+>>> map
+<folium.folium.Map object at 0x0D5D1AC0>
+>>> map.save("Map1.html")
+>>> map
+<folium.folium.Map object at 0x0D5D1AC0>
+>>> map = folium.Map(location=[34.917368, -81.937183], zoom_start = 6)
+>>> map.save("Map1.html")
+
